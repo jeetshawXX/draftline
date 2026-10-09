@@ -1,8 +1,7 @@
-# Draftline CMS — UCT Full Stack Internship Project
+# Draftline 
 
-**Prepared by:** Jeet Shaw  
 **Project area:** Full-stack web development · Content Management System for a Blog  
-**Organization named in the brief:** UCT
+ 
 
 Draftline is a full-stack editorial CMS built around a simple idea: a website owner should be able to write posts, design reusable page layouts, manage images, and publish changes without editing code. It is a portfolio-ready implementation of the first UCT Full Stack Internship project brief.
 
