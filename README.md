@@ -170,3 +170,19 @@ If Git reports that the remote already contains a README or other commit, clone 
 - **Code:** this repository.
 - **Project report:** [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md).
 - **Test plan:** [`docs/TEST_PLAN.md`](docs/TEST_PLAN.md).
+
+<!-- SCREENSHOTS:START -->
+## Screenshots
+
+### Public Homepage
+![Draftline public homepage](screenshots/homepage.png)
+
+### Admin Dashboard
+![Draftline admin dashboard](screenshots/dashboard.png)
+
+### Post Editor
+![Draftline post editor](screenshots/post-editor.png)
+
+### Media Library
+![Draftline media library](screenshots/media-library.png)
+<!-- SCREENSHOTS:END -->
