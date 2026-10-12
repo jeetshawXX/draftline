@@ -824,3 +824,18 @@ img { display: block; max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+
+/* Account creation and Google authentication */
+.google-auth-button {
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  width: 100%; min-height: 49px; margin-top: 16px; padding: 12px 16px;
+  border: 1px solid var(--line, #deded5); border-radius: 5px; background: #fff;
+  color: var(--ink, #24251f); font: inherit; font-size: 13px; font-weight: 650;
+  text-decoration: none; transition: background .2s ease, border-color .2s ease;
+}
+.google-auth-button:hover { background: #f8f8f4; border-color: #bdbdb1; }
+.signup-switch { margin: 24px 0 18px; color: var(--muted, #77786f); text-align: center; font-size: 12px; }
+.signup-switch a { color: var(--ink, #24251f); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.inline-success { margin: 0 0 18px; padding: 12px 14px; border: 1px solid #c8ddc6; border-radius: 4px; background: #f2f8ef; color: #315d32; font-size: 12px; line-height: 1.5; }
+.login-form-wrap .login-back-link[type="button"] { display: block; border: 0; background: transparent; padding: 0; margin: 3px 0 0; font: inherit; font-size: 12px; cursor: pointer; }
