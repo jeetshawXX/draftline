@@ -25,6 +25,16 @@ model User {
   media        Media[]
 }
 
+model EmailVerificationCode {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  codeHash  String
+  expiresAt DateTime
+  attempts  Int      @default(0)
+  createdAt DateTime @default(now())
+}
+
 model Post {
   id              String        @id @default(cuid())
   title           String
